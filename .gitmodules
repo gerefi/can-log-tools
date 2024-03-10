@@ -1,0 +1,7 @@
+[submodule "opendbc"]
+	path = opendbc
+	url = https://github.com/gerefi/opendbc.git
+	branch = gerefi_prod
+[submodule "ext/peak-can-basic"]
+	path = ext/peak-can-basic
+	url = https://github.com/gerefi/peak-can-basic

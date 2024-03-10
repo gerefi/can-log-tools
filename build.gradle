@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+apply from: 'dependencies.gradle'
+
+group 'org.gerefi'
+version '0.11-SNAPSHOT'
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+defaultTasks 'jar'
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.gerefi.can.ToolSelector'
+        )
+    }
+}

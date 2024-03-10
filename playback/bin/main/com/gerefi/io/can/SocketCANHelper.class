@@ -1,0 +1,24 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.gerefi.io.can;
+
+import java.io.IOException;
+import org.jetbrains.annotations.NotNull;
+import tel.schich.javacan.RawCanChannel;
+
+public class SocketCANHelper {
+   public SocketCANHelper() {
+      throw new Error("Unresolved compilation problem: \n\tThe declared package \"com.gerefi.io.can\" does not match the expected package \"com.gerefi.io.can\"\n");
+   }
+
+   public static @NotNull RawCanChannel createSocket() {
+      throw new Error("Unresolved compilation problem: \n");
+   }
+
+   public static void send(int var0, byte[] var1, RawCanChannel var2) throws IOException {
+      throw new Error("Unresolved compilation problem: \n");
+   }
+
+   public static CanSender create() {
+      throw new Error("Unresolved compilation problem: \n");
+   }
+}

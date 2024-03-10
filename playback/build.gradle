@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'com.github.johnrengelman.shadow' version "${shadowVersion}"
+}
+
+dependencies {
+    api project(':reader')
+    api project(':peak-can-basic')
+    api libs.annotations
+    api group: 'tel.schich', name: 'javacan-core', version: "$javaCanVersion"
+    api group: 'tel.schich', name: 'javacan-core', version: "$javaCanVersion", classifier: 'x86_64'
+}
+
+shadowJar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.gerefi.io.can.SenderSandbox'
+        )
+    }
+}

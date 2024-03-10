@@ -1,0 +1,30 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package com.gerefi.io.can;
+
+public class PCanHelper {
+   public static final TPCANHandle CHANNEL;
+
+   public PCanHelper() {
+      throw new Error("Unresolved compilation problems: \n\tThe declared package \"com.gerefi.io.can\" does not match the expected package \"com.gerefi.io.can\"\n\tThe import peak cannot be resolved\n\tThe import peak cannot be resolved\n\tTPCANHandle cannot be resolved to a type\n\tTPCANHandle cannot be resolved to a variable\n\tPCANBasic cannot be resolved to a type\n\tPCANBasic cannot be resolved to a type\n\tPCANBasic cannot be resolved to a type\n\tTPCANStatus cannot be resolved to a type\n\tPCANBasic cannot be resolved to a type\n\tTPCANHandle cannot be resolved to a type\n\tTPCANBaudrate cannot be resolved to a variable\n\tTPCANType cannot be resolved to a variable\n\tTPCANStatus cannot be resolved to a type\n\tPCANBasic cannot be resolved to a type\n\tTPCANMsg cannot be resolved to a type\n\tTPCANMsg cannot be resolved to a type\n\tPCAN_MESSAGE_STANDARD cannot be resolved\n\tTPCANHandle cannot be resolved to a type\n\tPCANBasic cannot be resolved to a type\n\tPCANBasic cannot be resolved to a type\n\tThe method createPCAN() from the type PCanHelper refers to the missing type PCANBasic\n\tTPCANStatus cannot be resolved to a type\n\tTPCANStatus cannot be resolved to a variable\n\tPCANBasic cannot be resolved to a type\n\tThe method createAndInit() from the type PCanHelper refers to the missing type PCANBasic\n\tTPCANStatus cannot be resolved to a type\n\tTPCANStatus cannot be resolved to a variable\n\tTPCANStatus cannot be resolved to a variable\n\tTPCANStatus cannot be resolved to a variable\n");
+   }
+
+   public static PCANBasic createPCAN() {
+      throw new Error("Unresolved compilation problems: \n\tPCANBasic cannot be resolved to a type\n\tPCANBasic cannot be resolved to a type\n\tPCANBasic cannot be resolved to a type\n");
+   }
+
+   public static TPCANStatus init(PCANBasic var0) {
+      throw new Error("Unresolved compilation problems: \n\tTPCANStatus cannot be resolved to a type\n\tPCANBasic cannot be resolved to a type\n\tTPCANHandle cannot be resolved to a type\n\tTPCANBaudrate cannot be resolved to a variable\n\tTPCANType cannot be resolved to a variable\n");
+   }
+
+   public static TPCANStatus send(PCANBasic var0, int var1, byte[] var2) {
+      throw new Error("Unresolved compilation problems: \n\tTPCANStatus cannot be resolved to a type\n\tPCANBasic cannot be resolved to a type\n\tTPCANMsg cannot be resolved to a type\n\tTPCANMsg cannot be resolved to a type\n\tPCAN_MESSAGE_STANDARD cannot be resolved\n\tTPCANHandle cannot be resolved to a type\n");
+   }
+
+   public static PCANBasic createAndInit() {
+      throw new Error("Unresolved compilation problems: \n\tPCANBasic cannot be resolved to a type\n\tPCANBasic cannot be resolved to a type\n\tThe method createPCAN() from the type PCanHelper refers to the missing type PCANBasic\n\tTPCANStatus cannot be resolved to a type\n\tTPCANStatus cannot be resolved to a variable\n");
+   }
+
+   public static CanSender create() {
+      throw new Error("Unresolved compilation problems: \n\tPCANBasic cannot be resolved to a type\n\tThe method createAndInit() from the type PCanHelper refers to the missing type PCANBasic\n\tTPCANStatus cannot be resolved to a type\n\tTPCANStatus cannot be resolved to a variable\n\tTPCANStatus cannot be resolved to a variable\n\tTPCANStatus cannot be resolved to a variable\n");
+   }
+}
